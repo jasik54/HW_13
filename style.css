@@ -11,73 +11,88 @@ ul {list-style-type: none;
 }
 a {text-decoration: none;
 }
-body {font-family:Roboto
+body { 
+    font-family: Roboto;
 }
-.container{
+.container {
+    margin: 0 auto;
+    width: 1600px;
+  }
+.header{
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
-.logo { margin-top: 24px;
-    margin-bottom: 25px;
-   
-    text-align: center; color: #000;font-family: Raleway;}.slice-logo {color: #2196F3;
-}
-
 .header_navigation{
-    display: flex;
- justify-content: space-around;
- align-items: baseline;
 }
-.Portfolio{
+.logo{ 
+font-size: 26px;
+font-weight: 700;      
+text-align: center; color: #000;font-family: Raleway;}.slice-logo {color: #2196F3;
 }
-.Kontaktu{
 
-}
-.header_nav_list {
-    justify-content: space-between;
-    display: flex;
-    gap: 50px;
-}
-.header_list {
-
-}
-.gmail {
-
-color: #2196F3;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 500;
-
-}
-.nomber {
-margin-right: 215px;
+.header_nav_list{
 margin-top: 32px;
-color: #757575;
-font-family: Roboto;
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.studio{
+color: #2196F3;
 font-size: 14px;
 font-weight: 500;
-
 }
+
+.portfolio{
+color: #212121;
+font-size: 14px;
+font-weight: 500;
+}
+.kontaktu{
+color: #212121;
+font-size: 14px;
+font-weight: 500;
+}
+
+.connection{
+    display: flex;
+}
+
+.gmail {
+color: #2196F3;
+font-size: 14px;
+font-weight: 500;
+}
+.nomber{
+    color: #000000;
+font-size: 14px;
+font-weight: 500;
+}
+/* ==================================MAIN==================================== */
 .gallary{
 text-align: center;
 } 
-.section_button{
-background-color: #212121;
-width: 1600px auto;
-height: 600px ;
+.gallary_item{
+justify-content: center;
+display: flex;
 }
-.h1 {
+.bg{
+    background: #2F303A;
+    width: 1900px;
+height: 600px;
+}
+.h1 { 
+text-align: center;
 color: #FFF;
 }
-.button{
+.button{   
 margin-top: 360px;
 width: 216px;
 height: 50px;
 border-radius: 4px;
 background: #2196F3;
 box-shadow: 0px 4px 4px 0px rgba(255, 255, 255, 0.15);
-font-family: Roboto;
 font-size: 16px;
 font-weight: 700px;
 line-height: 30px; 
@@ -89,17 +104,25 @@ justify-content: space-between;
 text-align: center;
 display: flex;
 }
-.People{
+.people-item{
     margin-top: 50px;
     text-align: center;
     display: flex;
     justify-content: space-between;
 }
 .robota{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
     justify-content: center;
     margin-top: 118px;
 }
+.robota-item{
+    margin-top: 50px;
+}
 .komanda{
+    justify-content: center;
+    display: flex;
     margin-top: 188px;
 }
 .igor{
@@ -122,9 +145,24 @@ flex-shrink: 0;
 height: 260px;
 flex-shrink: 0;
 }
+.footer{
+background: #2F303A;
+width: 1900px;
+height: 252px;
+}
+
+.footer-item{
+color: #FFF;
+font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px; /* 171.429% */
+}
+
+
 .bot_logo{
     display: flex;
     font-family: Raleway;
-    
+    font-size: 26px;
     margin-top: 213px;
 }
